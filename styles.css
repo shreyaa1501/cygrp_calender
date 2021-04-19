@@ -1,0 +1,190 @@
+#choose{
+    background-color: red;
+}
+
+
+.cent{
+    padding: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-weight: 500;
+}
+
+.clicker{
+    text-align: center;
+    padding: 15rem;
+	
+}
+
+.btn-light{
+    
+  background-color:rgb(8, 8, 8);
+  border:none;
+  padding: 5px 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+border-radius:12px;
+transition-duration: 0.4s;
+
+
+
+	}
+    .btn {
+        background-color: rgba(223, 210, 210, 0.63); 
+        color:black;
+        border: 2px solid #f31b1b;
+      }
+
+      .btn:hover {
+        background-color: rgb(247, 74, 74);
+  color:white;
+      }
+.calender {
+	border-radius: 0.2rem;
+	width: 1500px; height: 900px;
+	position: absolute;
+}
+
+
+
+
+
+header { padding: 0.7rem 0 0 2rem; }
+
+
+header h1 { font-size: 4rem; }
+
+
+header h3 { font-size: 1.2rem; text-align:center; }
+
+
+table {
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 290px; height: 190px;
+	padding: 0.5rem;
+	border-radius: 0.6rem;
+	position: relative ;
+	top: 27.5%; left: 31%;
+	
+}
+
+.download .span
+{
+  font-weight: 500;
+}
+
+/* Week Name */
+table th { letter-spacing: 0.025rem;
+padding:4px;
+font-size:30px; }
+
+/* 1 to 31 */
+table td {
+	text-align: center;
+	
+	font-size: 3rem;
+	transition: all 250ms ease 0s;
+  padding:5px;
+}
+
+table td:hover {
+	background-color:red;
+
+	color: pink;
+	cursor: pointer;
+}
+
+table tr td.both {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(to bottom, rgb(44, 250, 188), rgb(87, 97, 245));
+}
+
+
+table tr td.dallas {
+	background-color: rgb(87, 97, 245);
+
+	color: #f2f2f2;
+}
+table tr td.india {
+	background-color: rgb(44, 250, 188);
+
+	color: #f2f2f2;
+}
+
+/* Blank Table td on Hover */
+.blank:hover {
+	background-color: transparent;
+	cursor: auto;
+}
+.div1{
+    pad: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.footerhere{
+padding-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+	
+.chota{
+	margin-left: -100px;
+}
+}
+
+@media only screen and (min-width: 800px) 
+{
+	.chota
+	{
+		margin-left: 270px;
+	}
+}
+
+
+/* TABLES ARE HERE  */
+
+#table1 {
+    font-family: 'Roboto Slab', serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#table1 td, #table1 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table1 tr:nth-child(even){background-color: #f2f2f2;}
+
+#table1 tr:hover {background-color: #ddd;}
+
+#table1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+ 
+  background-color: #fc931b;
+  color: white;
+}
+
+
+.download{
+	background-image: url(./gradient.jpg);
+}
+
+.bg-light {
+     background-color: #ffeece!important;
+
+}
+
+.text-white {
+    color: #000!important;
+}
+
